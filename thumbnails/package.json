@@ -1,0 +1,13 @@
+{
+  "name": "winroom-thumbnail",
+  "private": true,
+  "scripts": {
+    "shots": "node capture-screens.mjs",
+    "png": "node export-png.mjs",
+    "build": "node capture-screens.mjs && node export-png.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.11.1",
+    "sharp": "^0.33.5"
+  }
+}

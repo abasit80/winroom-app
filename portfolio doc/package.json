@@ -1,0 +1,11 @@
+{
+  "name": "winroom-case-study",
+  "private": true,
+  "scripts": {
+    "pdf": "node export-pdf.mjs",
+    "shots": "node capture-screens.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.11.1"
+  }
+}
